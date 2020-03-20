@@ -1,0 +1,87 @@
+/* * * GENERAL * * */
+
+html {
+    /*border: 3px solid black;*/
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    text-align: center;
+}
+
+body {
+    /*border: 3px solid green;*/
+    height: 95%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#app {
+    /* border: 2px solid pink; */
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* * * NAVIGATION * * */
+
+.menu {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar {
+    padding: 0 1em;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0.25em;
+    margin: 0 0.25em
+}
+
+#header {
+    border-bottom: 0.25em solid black;
+    margin-top: 1em;
+    text-align: right;
+    top: 0;
+}
+
+#logo {
+    bottom: 0;
+    height: 2em;
+    left: 1em;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+
+#home-tab {
+    bottom: 0;
+    margin-right: 1em;
+    position: absolute;
+}
+
+#about-tab {
+    bottom: 0;
+    position: absolute;
+    right: 1em;
+}
+
+#footer {
+    border-top: 0.25em solid black;
+    bottom: 0;
+    font-size: 14px;
+    text-align: right;
+}
+
+#footer-signature {
+    position: absolute;
+    left: 1em;
+}
+
+#home-tab,
+#github-link {
+    margin-right: 1em;
+}
